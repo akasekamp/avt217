@@ -1,9 +1,25 @@
 h1 {
 font-size: 90px;
-color: blue;
+color: purple;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+h2 {
+font-size: 50px;
+color: #301934;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
 }
 
 p {
   color: purple;
+  font-family: sans-serif;
+  text-align: center;
+  
 
+}
+body {
+  background-color: #b399D4;
 }
