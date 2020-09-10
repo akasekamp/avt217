@@ -1,6 +1,6 @@
 h1 {
 font-size: 90px;
-color: purple;
+color: #7c5295;
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 position:relative;
@@ -10,7 +10,7 @@ position:relative;
 
 h2 {
 font-size: 50px;
-color: #301934;
+color: #663a82;
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 position:relative;
@@ -20,7 +20,7 @@ position:relative;
 
 p {
   font-size: 60px;
-  color: purple;
+  color: #7c5295;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   position:relative;
@@ -30,3 +30,20 @@ p {
 
 body {
   background-color: #b399D4;
+}
+
+a:link {
+  color: #7c5295;
+}
+
+a:visited {
+  color: #7c5295;
+}
+
+a:hover {
+  color: #663a82;
+}
+
+a:active {
+  color: #7c5295;
+}
