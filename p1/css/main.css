@@ -3,6 +3,9 @@ font-size: 90px;
 color: purple;
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
+position:relative;
+    bottom:-200px;
+    vertical-align:bottom;
 }
 
 h2 {
@@ -10,16 +13,20 @@ font-size: 50px;
 color: #301934;
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
-
+position:relative;
+    bottom:-200px;
+    vertical-align:bottom;
 }
 
 p {
+  font-size: 75px;
   color: purple;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  
-
+  position:relative;
+      bottom:-200px;
+      vertical-align:bottom;
 }
+
 body {
   background-color: #b399D4;
-}
