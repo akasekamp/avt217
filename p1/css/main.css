@@ -19,12 +19,12 @@ h2 {
 }
 
 p {
-  font-size: 60px;
+  font-size: 40px;
   color: #7c5295;
   font-family: 'Grandstander', cursive;
   text-align: center;
   position:relative;
-  bottom:-250px;
+  bottom:-300px;
   vertical-align:bottom;
 }
 
