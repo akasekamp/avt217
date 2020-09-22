@@ -1,0 +1,40 @@
+body {
+  background-color: #CD6155 ;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
+  color: #641E16;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 200px
+}
+
+ul {
+  font-size: 200px
+  color: #641E16;
+  font-family: 'Varela Round', sans-serif;
+  list-style-type: "\2740";
+  padding-left: 600px;
+  padding-top: 15px;
+  line-height: 30px;
+
+
+}
+
+a:link {
+  color: #641E16;
+}
+
+a:visited {
+  color: #7B241C;
+}
+
+a:hover {
+  color: #B03A2E;
+}
+
+a:active {
+  color: #641E16;
+}
