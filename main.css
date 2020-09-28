@@ -1,38 +1,41 @@
 body {
-  background-color: #CD6155 ;
+  background-color: #FFAFD4;
+  margin-right: 265px;
+  margin-left: 265px;
+  margin-top:170px;
+  margin-bottom: 150px;
 }
 
 h1 {
   font-size: 50px;
   font-family: 'Press Start 2P', cursive;
-  color: #641E16;
+  color: #9C175C;
   text-align: center;
   vertical-align: middle;
-  padding-top: 200px
+
 }
 
 ul {
   font-size: 200px
-  color: #641E16;
+  color: #C54682;
   font-family: 'Varela Round', sans-serif;
   list-style-type: "\2740";
-  padding-left: 600px;
-  padding-top: 15px;
   line-height: 30px;
+  margin-left: 300px;
 }
 
 a:link {
-  color: #641E16;
+  color: #9C175C;
 }
 
 a:visited {
-  color: #7B241C;
+  color: #4A0C2C;
 }
 
 a:hover {
-  color: #B03A2E;
+  color: #C54682;
 }
 
 a:active {
-  color: #641E16;
+  color: #C54682;
 }
