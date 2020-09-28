@@ -38,6 +38,18 @@ ul {
   letter-spacing: 2px;
 }
 
-#contrast-of-size {
+a:link {
+  color: #9C175C;
+}
 
+a:visited {
+  color: #4A0C2C;
+}
+
+a:hover {
+  color: #C54682;
+}
+
+a:active {
+  color: #C54682;
 }
