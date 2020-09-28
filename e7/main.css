@@ -3,6 +3,7 @@ body {
   margin-right: 265px;
   margin-left: 265px;
   margin-top: 50px;
+  margin-bottom: 200px;
 }
 
 h1 {
@@ -35,4 +36,8 @@ ul {
   font-family: 'Shrikhand', cursive;
   color: #9C175C;
   letter-spacing: 2px;
+}
+
+#contrast-of-size {
+
 }
