@@ -1,0 +1,38 @@
+body {
+  background-color: #FFAFD4;
+  margin-right: 265px;
+  margin-left: 265px;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 3px;
+  color: #9C175C;
+}
+
+h2 {
+  font-family: 'Shrikhand', cursive;
+  letter-spacing: 3px;
+  color: #C54682;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: normal;
+  color: #4A0C2C;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 35px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: 'Shrikhand', cursive;
+  color: #9C175C;
+  letter-spacing: 2px;
+}
