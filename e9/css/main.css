@@ -134,3 +134,31 @@ main {
   float: left;
   margin: -3px;
 }
+h1 {
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
+  color: darkgreen;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 250px;
+}
+ul {
+  font-size: 200px
+  color: green;
+  font-family: 'Varela Round', sans-serif;
+  list-style-type: "\2740";
+  line-height: 30px;
+  margin-left: 625px;
+}
+a:link {
+  color: darkgreen;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  color: darkgreen;
+}
