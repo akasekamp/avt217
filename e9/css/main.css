@@ -2,11 +2,12 @@
   box-sizing: border-box;
 }
 body {
-  margin: 10px;
-  overflow-y: hidden;
+  margin-right: -1px;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  margin-left: -1px;
   overflow-x: hidden;
-  overflow: hidden;
-  background-color: lightgreen;
+  background-color: black;
   opacity: .9;
 }
 main {
@@ -104,22 +105,22 @@ main {
   border-top: 100px solid blue;
   border-left: 100px solid transparent;
   float: left;
-  margin: -200px;
+  margin: -50px;
   transform: rotate(60deg);
   opacity: .4;
 }
 .shape11 {
   width: 0;
   height: 0;
-  border-bottom: 100px solid cyan;
-  border-right: 100px solid transparent;
+  border-bottom: 200px solid cyan;
+  border-right: 200px solid transparent;
   float: left;
-  margin: -10px;
+  margin: -25px;
   transform: rotate(55deg);
   opacity: .9;
 }
 .shape12 {
-  border-bottom: 50px solid green;
+  border-bottom: 50px solid lightgreen;
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	height: 0;
