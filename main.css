@@ -15,9 +15,6 @@ main {
 .col {
   float: left;
 }
-
-
-
 h1 {
   font-size: 40px;
   font-family: 'Press Start 2P', cursive;
@@ -52,7 +49,6 @@ a:hover {
 a:active {
   color: #C54682;
 }
-
 @media screen and (max-width: 500px) {
   .col {
     width: 50%;
