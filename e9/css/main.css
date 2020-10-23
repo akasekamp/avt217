@@ -138,28 +138,28 @@ main {
 h1 {
   font-size: 50px;
   font-family: 'Press Start 2P', cursive;
-  color: darkgreen;
+  color: hotpink;
   text-align: center;
   vertical-align: middle;
   margin-top: 250px;
 }
 ul {
   font-size: 200px
-  color: green;
+  color: lightpink;
   font-family: 'Varela Round', sans-serif;
   list-style-type: "\2740";
   line-height: 30px;
   margin-left: 625px;
 }
 a:link {
-  color: darkgreen;
+  color: hotpink;
 }
 a:visited {
-  color: green;
+  color: lightpink;
 }
 a:hover {
-  color: green;
+  color: lightpink;
 }
 a:active {
-  color: darkgreen;
+  color: hotpink;
 }
