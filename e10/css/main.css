@@ -7,7 +7,7 @@ body {
 .board {
   width: 820px;
   display: flow-root;
-  margin: 50px auto 0;
+  margin: 25px auto 0;
 }
 .red, .black {
   width: 100px;
@@ -19,4 +19,64 @@ body {
 }
 .black {
   background-color: #333333;
+}
+/* column layout */
+.frame {
+  width: 650px;
+  display: flow-root;
+  margin: 50px auto 0;
+}
+.header, .small, .column, .footer {
+  float: left;
+}
+.header {
+  background-color: orange;
+  height: 60px;
+  width: 600px;
+  margin-bottom: 10px;
+}
+.small {
+  background-color: red;
+  height: 20px;
+  width: 600px;
+  margin-bottom: 10px;
+
+}
+.column {
+  background-color: tomato;
+  width: 193px;
+  height: 500px;
+  margin-right: 10px;
+}
+.footer {
+  background-color: orange;
+  height: 60px;
+  width: 600px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* blog layout */
+.frame {
+  width: ;
+  display: flow-root;
+  margin: 50px auto 0;
+}
+.head, .content, .ad, .bottom {
+  float: left;
+}
+.head {
+  background-color: green;
+  height: 150px;
+  width: 600px;
+  margin-bottom:
+}
+.content {
+
+}
+
+.ad {
+
+}
+.bot {
+
 }
