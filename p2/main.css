@@ -11,10 +11,24 @@ h1 {
   font-weight: 400;
   font-style: normal;
   background-color: #FCF6A2;
-  padding: 10px;
   border: 1px solid #2E2E2E;
-  width: 150px;
-  height: 30px;
+  width: 175px;
+  height: 50px;
+  font-size: 50px;
+  margin: 20px auto;
+}
+h2 {
+  color: #FCF6A2;
+  font-family: helvetica;
+  font-style: oblique;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+p {
+  font-family: helvetica;
+  font-weight: lighter;
+  color: white;
+  margin: 20px;
 }
 ul {
   list-style-type: none;
@@ -43,9 +57,9 @@ a:active {
 }
 img {
   display: block;
-  margin-left: 100px auto;
-  margin-right: 100px auto;
-  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
   height: auto;
 }
 .navigation-bar {
@@ -71,6 +85,9 @@ img {
   width: 150px;
   height: 30px;
   margin: 20px;
+  top: 0;
+  right: 0;
+  margin-top: 30px;
 }
 .navigation-bar > a {
   display: inline-block;
@@ -80,7 +97,20 @@ img {
   line-height: 80px;
 }
 .col {
-  width: 500px;
+  width: 650px;
   height: 500px;
-  background-color: #2E2E2E
+  background-color: #2E2E2E;
+}
+main {
+  width: 80vw;
+  margin: 10px auto;
+  display: flow-root;
+}
+h3 {
+  margin-left: 50px auto;
+  margin-right: 50px auto;
+  font-family: helvetica;
+  font-weight: lighter;
+  color: #4B4B4B;
+  margin: 20px;
 }
