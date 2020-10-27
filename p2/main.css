@@ -1,42 +1,67 @@
 body {
   background-color: #FCF6A2;
   overflow-x: hidden;
-  text-decoration: none;
+  max-width: 1440px;
 }
-main {
-  margin: 100px auto;
-}
+/* headings */
 h1 {
   font-family: balboa-plus-inline, sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: #FCF6A2;
   border: 1px solid #2E2E2E;
-  width: 175px;
-  height: 50px;
-  font-size: 50px;
-  margin: 20px auto;
+  width: 235px;
+  height: 70px;
+  font-size: 45px;
+  margin: 75px auto;
+  margin-bottom: 70px;
+  padding-left: 80px;
+  padding-top: 15px;
 }
 h2 {
   color: #FCF6A2;
   font-family: helvetica;
   font-style: oblique;
   padding-top: 20px;
+  padding-bottom: 25px;
   margin-left: 20px;
+  text-align: center;
+  margin: 15px auto;
 }
+h3 {
+  margin-left: 45px auto;
+  margin-right: 45px auto;
+  font-family: helvetica;
+  font-weight: lighter;
+  color: #4B4B4B;
+  margin: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+h4 {
+  font-family: balboa-plus-inline, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #FCF6A2;
+  border: 1px solid #2E2E2E;
+  width: 205px;
+  height: 70px;
+  font-size: 45px;
+  margin: 75px auto;
+  margin-bottom: -15px;
+  padding-left: 100px;
+  padding-top: 15px;
+}
+/* end headings */
 p {
   font-family: helvetica;
   font-weight: lighter;
   color: white;
-  margin: 20px;
-}
-ul {
-  list-style-type: none;
-  font-family: balboa-plus-inline, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 30px;
-  text-decoration: none;
+  margin: 50px;
+  margin-top: -10px;
+  float: right;
+  display: inline-block;
+  text-align: justify;
 }
 a {
   text-decoration: none;
@@ -56,61 +81,107 @@ a:active {
   color: #FCF6A2;
 }
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 350px;
-  height: auto;
-}
-.navigation-bar {
-    width: 110%;
-    height: 115px;
-    background-color: #2E2E2E;
-    margin: -10px;
-}
-.logo {
-    display: inline-block;
-    vertical-align: top;
-    width: 350px;
-    height: auto;
-    margin-right: 20px;
-    margin-top: 15px;
-    padding-left: 20px;
-}
-.navbox {
   float: left;
-  background-color: #4B4B4B;
-  padding: 10px;
-  border: .5px solid lightgrey;
-  width: 150px;
-  height: 30px;
-  margin: 20px;
-  top: 0;
-  right: 0;
-  margin-top: 30px;
-}
-.navigation-bar > a {
+  width:  750px;
+  height: 350px;
+  object-fit: cover;
   display: inline-block;
-  vertical-align: top;
-  margin-right: -20px;
-  height: 80px;
-  line-height: 80px;
-}
-.col {
-  width: 650px;
-  height: 500px;
-  background-color: #2E2E2E;
+  margin-bottom: 75px;
 }
 main {
   width: 80vw;
   margin: 10px auto;
   display: flow-root;
+  max-width: 1440px;
 }
-h3 {
-  margin-left: 50px auto;
-  margin-right: 50px auto;
-  font-family: helvetica;
-  font-weight: lighter;
-  color: #4B4B4B;
-  margin: 20px;
+/* navigation elements */
+.navigation-bar {
+  width: 110%;
+  height: 115px;
+  background-color: #2E2E2E;
+  margin: -10px;
+  flex-direction: row;
+  display: flex;
+}
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 350px;
+  height: auto;
+  margin-right: 170px;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+.navbox {
+  float: left;
+  background-color: #4B4B4B;
+  text-align: center;
+  padding-right: 28px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  border: .5px solid lightgrey;
+  width: 140px;
+  height: 30px;
+  margin: 30px;
+  margin-top: 35px;
+  font-family: balboa-plus-inline, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-decoration: none;
+}
+/* end nav elements */
+.col {
+  width: 750px;
+  height: 570px;
+  background-color: #2E2E2E;
+  padding: auto;
+  margin: 100px 210px auto;
+  float: left;
+  display: flow-root;
+}
+.footer {
+  width: 100%;
+  height: 25px;
+  background-color: #2E2E2E;
+  margin: -10px;
+  padding: -10px;
+  margin-top: 75px;
+}
+/* id */
+#sights {
+  float: left;
+  background-color: #FCF6A2;
+  text-align: center;
+  padding-right: 25px;
+  padding-top: 6px;
+  padding-left: -3px;
+  padding-bottom: 9px;
+  border: 2px solid black;
+  width: 143px;
+  height: 30px;
+  margin-top: -8px;
+  margin-left: -1px;
+}
+#sights a:hover {
+ color: lightgrey;
+}
+#sights a:link {
+ color: #4B4B4B
+}
+#sights a:visited {
+  color: black;
+}
+#sights a:active {
+  color: black;
+}
+.gallery img {
+  float: left;
+  width:  370px;
+  height: 300px;
+  object-fit: cover;
+  display: inline-block;
+  margin-bottom: 75px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
