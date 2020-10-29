@@ -102,7 +102,6 @@ main {
   margin: -10px;
   flex-direction: row;
   display: flex;
-  position: fixed;
 }
 .logo {
   display: inline-block;
@@ -112,7 +111,6 @@ main {
   margin-right: 170px;
   margin-top: 15px;
   padding-left: 20px;
-  position: fixed;
 }
 .navbox {
   float: left;
@@ -131,7 +129,6 @@ main {
   font-style: normal;
   font-size: 30px;
   text-decoration: none;
-  position: fixed;
 }
 /* end nav elements */
 .col {
