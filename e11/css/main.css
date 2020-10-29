@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.cat {
+  position: relative;
+}
+/* cat head elements */
+.head {
+  position: relative;
+}
+.l-ear {
+  position: absolute;
+}
+.l-ear-inside {
+  position: absolute;
+}
+.l-eye {
+  position: absolute;
+}
+.l-eye-pupil {
+  position: absolute;
+}
+.r-eye {
+  position: absolute;
+}
+.r-eye-pupil {
+  position: absolute;
+}
+.nose {
+  position: absolute;
+}
+.mouth {
+  position: absolute;
+}
+/* end head */
+/* hat */
+.hatbrim {
+  position: absolute;
+}
+.hattriangle{
+  position: absolute;
+}
+/* end hat */
+/* cat body elements */
+.body {
+ position: relative;
+}
+.leg-1 {
+ position: absolute;
+}
+.foot-1 {
+  position: absolute;
+}
+.leg-2 {
+  position: absolute;
+}
+.foot-2 {
+  position: absolute;
+}
+.leg-3 {
+  position: absolute;
+}
+.foot-3 {
+  position: absolute;
+}
+.leg-4 {
+  position: absolute;
+}
+.foot-4 {
+  position: absolute;
+}
+.tail {
+  position: absolute;
+}
+/* end body */
