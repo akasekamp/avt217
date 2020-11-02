@@ -37,6 +37,9 @@ h3 {
   margin: 20px;
   text-align: center;
   margin-bottom: 40px;
+  position: absolute;
+  top: 700px;
+  padding-right: 150px;
 }
 h4 {
   font-family: balboa-plus-inline, sans-serif;
@@ -149,6 +152,9 @@ main {
   margin-right: auto;
   padding: -10px;
   margin-top: 75px;
+  position: absolute;
+  bottom: -170px;
+  left: 0px;
 }
 /* id */
 #sights {
@@ -178,11 +184,11 @@ main {
   color: black;
 }
 .gallery img {
-  float: left;
-  width:  370px;
+  width:  25vw;
   height: 300px;
   object-fit: cover;
   margin-bottom: 75px;
   margin-left: 5px;
   margin-right: 5px;
+  max-width: 100%;
 }
