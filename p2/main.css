@@ -1,31 +1,15 @@
-@media only screen and (max-width: 1187px) {
+@media only screen and (max-width: 1000px) {
   .navbox {
     display: none;
   }
   h3 {
-    padding-left: 50px;
+    margin: auto;
+    padding: auto;
+    width: 70vw;
   }
   .footer {
     display: none;
   }
-  .ham1 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background: orange;
-    height: 20px;
-    width: 50px;
-  }
-  .ham2 {
-    display: none;
-  }
-  .ham3 {
-    display: none;
-  }
-  .logo {
-    position: static;
-  }
-
 }
 body {
   background-color: #FCF6A2;
@@ -185,6 +169,15 @@ main {
   bottom: -170px;
   left: 0px;
 }
+.gallery img {
+  width:  25vw;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 75px;
+  max-width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+}
 /* id */
 #sights {
   float: left;
@@ -211,22 +204,4 @@ main {
 }
 #sights a:active {
   color: black;
-}
-.gallery img {
-  width:  25vw;
-  height: 300px;
-  object-fit: cover;
-  margin-bottom: 75px;
-  margin-left: 5px;
-  margin-right: 5px;
-  max-width: 100%;
-}
-.ham1 {
-  display: none;
-}
-.ham2 {
-  display: none;
-}
-.ham3 {
-  display: none;
 }
