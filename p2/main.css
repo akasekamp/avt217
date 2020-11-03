@@ -1,3 +1,32 @@
+@media only screen and (max-width: 1187px) {
+  .navbox {
+    display: none;
+  }
+  h3 {
+    padding-left: 50px;
+  }
+  .footer {
+    display: none;
+  }
+  .ham1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: orange;
+    height: 20px;
+    width: 50px;
+  }
+  .ham2 {
+    display: none;
+  }
+  .ham3 {
+    display: none;
+  }
+  .logo {
+    position: static;
+  }
+
+}
 body {
   background-color: #FCF6A2;
   overflow-x: hidden;
@@ -191,4 +220,13 @@ main {
   margin-left: 5px;
   margin-right: 5px;
   max-width: 100%;
+}
+.ham1 {
+  display: none;
+}
+.ham2 {
+  display: none;
+}
+.ham3 {
+  display: none;
 }
