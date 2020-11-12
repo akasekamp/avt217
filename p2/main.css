@@ -1,18 +1,13 @@
 @media only screen and (max-width: 1000px) {
-  footer{
+  .navbox{
     display: none;
-}
-/* centering fix?? probably not the most efficient way */
-#wrap {
-  width: 100vw;
-  margin: 0 auto;
-}
+  }
   h3 {
     margin: auto;
     padding: auto;
     width: 70vw;
   }
-  .footer {
+  footer {
     display: none;
   }
 }
