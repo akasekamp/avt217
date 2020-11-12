@@ -40,6 +40,7 @@ h2 {
   margin-left: 20px;
   text-align: center;
   margin: 15px auto;
+  font-size: 3vw;
 }
 h3 {
   margin-left: auto;
@@ -78,6 +79,7 @@ p {
   float: right;
   display: inline-block;
   text-align: justify;
+  font-size: 1vw;
 }
 a {
   text-decoration: none;
