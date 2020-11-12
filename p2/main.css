@@ -158,12 +158,12 @@ main {
   margin-right: 15vw;
 }
 .gallery img {
-  width:  25vw;
+  width:  26vw;
   height: 300px;
   object-fit: cover;
   margin-bottom: 75px;
   max-width: 100%;
-  margin-left: 4px;
+  margin-left: 2px;
 }
 .navagain {
   float: left;
