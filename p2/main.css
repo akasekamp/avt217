@@ -1,7 +1,8 @@
 @media only screen and (max-width: 1000px) {
   .navbox {
     display: none;
-  }
+}
+/* centering fix?? probably not the most efficient way */
 #wrap {
   width: 100vw;
   margin: 0 auto;
