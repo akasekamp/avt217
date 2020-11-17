@@ -6,17 +6,15 @@
     margin: auto;
     padding: auto;
     width: 70vw;
-  }
-  footer {
-    display: none;
+    font-size: 1em;
   }
 }
+/* headings */
 body {
   background-color: #FCF6A2;
   overflow-x: hidden;
   max-width: 1440px;
 }
-/* headings */
 h1 {
   font-family: balboa-plus-inline, sans-serif;
   font-weight: 400;
@@ -50,10 +48,11 @@ h3 {
   color: #4B4B4B;
   margin: 20px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   position: absolute;
-  top: 700px;
+  top: 715px;
   padding-right: 150px;
+  display: block;
 }
 h4 {
   font-family: balboa-plus-inline, sans-serif;
@@ -65,7 +64,7 @@ h4 {
   height: 70px;
   font-size: 45px;
   margin: 75px auto;
-  margin-bottom: -15px;
+  margin-bottom: 2px;
   padding-left: 110px;
   padding-top: 15px;
 }
@@ -167,33 +166,20 @@ main {
   max-width: 100%;
   margin-left: 2px;
 }
-.navagain {
-  float: left;
+footer {
   background-color: #4B4B4B;
   text-align: center;
-  border: .5px solid lightgrey;
-  width: 320px;
-  height: 40px;
-  margin: 2vw;
-  margin-top: 10vw;
   font-family: balboa-plus-inline, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
   text-decoration: none;
-  display: none;
-}
-footer {
-  width: 100%;
-  height: 25px;
-  background-color: #2E2E2E;
-  margin-left: auto;
-  margin-right: auto;
-  padding: -10px;
-  margin-top: 75px;
+  display: flow-root;
   position: absolute;
-  bottom: -170px;
-  left: 0px;
+  bottom: -225px;
+  width: 100%;
+  height: 2.5rem;
+  left: -5px;
 }
 /* id */
 #sights {
